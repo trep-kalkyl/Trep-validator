@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <replacements>
 	<name>Fil för kalkylvalidering</name>
-	<description>Filen innehåller kod för att validera riktigheten i kalkyler. Fullständiga instruktioner och exempel finns i authorurl lite längre ner</description>
+	<description>Filen innehåller kod för att validera riktigheten i kalkyler upprättade i Trep kalkyl.</description>
 	<version>0.1</version>
 	<creationDate>2016</creationDate>
 	<author>Trep kalkyl</author>
