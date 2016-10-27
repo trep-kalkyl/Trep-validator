@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <replacements>
-	<name>Example XML file for ReReplacer</name>
-	<description>This is an example file to show you how to build up an xml file with multiple replacements for ReReplacer.</description>
-	<version>7.0.2PRO</version>
-	<creationDate>June 2016</creationDate>
-	<author>Regular Labs (Peter van Westen)</author>
-	<authorEmail>info@regularlabs.com</authorEmail>
-	<authorUrl>https://www.regularlabs.com</authorUrl>
-	<copyright>Copyright © 2016 Regular Labs - All Rights Reserved</copyright>
-	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<name>Fil för kalkylvalidering</name>
+	<description>Filen innehåller kod för att validera riktigheten i kalkyler. Fullständiga instruktioner och exempel finns i authorurl lite längre ner</description>
+	<version>0.1</version>
+	<creationDate>2016</creationDate>
+	<author>Trep kalkyl</author>
+	<authorEmail>info@trep.se</authorEmail>
+	<authorUrl>http://www.trep.se   -   https://github.com/trep-kalkyl/Trep-validator/</authorUrl>
+	<copyright>Copyright © 2016 Trep kalkyl - All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
 
 	<items>
 	<!-- Detta är ett exempel på sökning! Kontrollera alltid regulajära uttryck mot http://regexr.com/ Se kommentarer **
