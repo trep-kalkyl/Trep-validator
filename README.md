@@ -6,7 +6,7 @@ Valideringsfiler används för att validera riktigheten i kalkyler.
 Ett första utkast.
 
 Modellen som används är en fråga typ:
-<br>Finns X eller/och Y?. Borde inte Z finnas?
+<br>Finns X eller/och Y? Borde inte Z finnas?
 
 Som verkligt exempel:<br>Finns Golvstativ eller väggstativ? Borde det inte finnas patchpanel?
 
