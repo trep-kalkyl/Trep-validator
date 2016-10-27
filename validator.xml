@@ -6,9 +6,12 @@
 	<creationDate>2016</creationDate>
 	<author>Trep kalkyl</author>
 	<authorEmail>info@trep.se</authorEmail>
-	<authorUrl>http://www.trep.se   -   https://github.com/trep-kalkyl/Trep-validator/</authorUrl>
+	<authorUrl>http://www.trep.se</authorUrl>
 	<copyright>Copyright © 2016 Trep kalkyl - All Rights Reserved</copyright>
 	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<!-- För filens instruktioner se Github: https://github.com/trep-kalkyl/Trep-validator -->
+	<!-- För bugg-rapportering se Github: https://github.com/trep-kalkyl/Trep-validator/issues -->
+	<!-- Vill du bidra? Forka och pull requesta! https://help.github.com/articles/creating-a-pull-request-from-a-fork/ -->
 
 	<items>
 	<!-- Detta är ett exempel på sökning! Kontrollera alltid regulajära uttryck mot http://regexr.com/ Se kommentarer **
