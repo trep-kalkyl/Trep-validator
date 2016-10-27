@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<replacements>
+	<name>Example XML file for ReReplacer</name>
+	<description>This is an example file to show you how to build up an xml file with multiple replacements for ReReplacer.</description>
+	<version>7.0.2PRO</version>
+	<creationDate>June 2016</creationDate>
+	<author>Regular Labs (Peter van Westen)</author>
+	<authorEmail>info@regularlabs.com</authorEmail>
+	<authorUrl>https://www.regularlabs.com</authorUrl>
+	<copyright>Copyright © 2016 Regular Labs - All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+
+	<items>
+	<!-- Detta är ett exempel på sökning! Kontrollera alltid regulajära uttryck mot http://regexr.com/ Se kommentarer **
+		<item>
+			<search>(\b(GOLVSTATIV|VÄGGSTATIV)\b.*?)\bVALIDERINGSKONTROLL DATA 1 EJ TILLÄMPLIG\b</search> 
+			<replace>\1<![CDATA[with <u><p><strong><font size="3" color="Red">VALIDERINGSKONTROLL DATA 1 UTFÖRD MED NOTERING: Datastativ saknar patchpanel</font></strong></p></u>]]></replace>
+			**Vi söker efter GOLVSTATIV ELLER VÄGGSTATIV i <search>sökord</search>
+			Hittas dessa ersätts texten 
+			"VALIDERINGSKONTROLL DATA 1 EJ TILLÄMPLIG (som finns i modulen)" 
+			med 
+			"VALIDERINGSKONTROLL DATA 1 UTFÖRD MED NOTERING: Datastativ saknar patchpanel"**
+			</item>
+			
+		<item>
+			<search>((PATCHPANEL HTML KOMMENTAR TAG kalkylartikelsvalidering - HTML KOMMENTAR TAG se i skarpa exempel).*?)\bVALIDERINGSKONTROLL DATA 1 UTFÖRD MED NOTERING\: Datastativ saknar patchpanel\b</search>
+			<replace>\1<![CDATA[with <u><p><strong><font size="3" color="Green">OK! Valideringskontroll data 1 utförd utan notering</font></strong></p></u>]]></replace>
+			**Därefter gör vi en ny sökning efter PATCHPANEL (notera " kalkylartikelsvalidering " detta möjligör sökningen till att endast omfatta kalkylartiklar och inte kalkylrader)
+			Hittas PATCHPANEL ersätts texten "VALIDERINGSKONTROLL DATA 1 UTFÖRD MED NOTERING\: Datastativ saknar patchpanel" med ""OK! Valideringskontroll data 1 utförd utan notering"
+			
+		</item>	
+	-->
+	
+	<!-- Finns Golvstativ eller väggstativ? Borde det inte finnas patchpanel? --> 
+		<item>
+			<search>(\b(GOLVSTATIV|VÄGGSTATIV)\b.*?)\bVALIDERINGSKONTROLL DATA 1 EJ TILLÄMPLIG\b</search>
+			<replace>\1<![CDATA[with <u><p><strong><font size="3" color="Red">VALIDERINGSKONTROLL DATA 1 UTFÖRD MED NOTERING: Datastativ saknar patchpanel</font></strong></p></u>]]></replace>
+		</item>
+		<item>
+			<search>((PATCHPANEL<!-- kalkylartikelsvalidering -->).*?)\bVALIDERINGSKONTROLL DATA 1 UTFÖRD MED NOTERING\: Datastativ saknar patchpanel\b</search>
+			<replace>\1<![CDATA[with <u><p><strong><font size="3" color="Green">OK! Valideringskontroll data 1 utförd utan notering</font></strong></p></u>]]></replace>
+		</item>		
+		
+		<!-- Finns Obestyckad patchpanel? Borde det inte finnas RJ45 modularjack? --> 
+		<item>
+			<search>(\b(OBESTYCKAD PATCHPANEL)\b.*?)\bVALIDERINGSKONTROLL DATA 2 EJ TILLÄMPLIG\b</search>
+			<replace>\1<![CDATA[with <u><p><strong><font size="3" color="Red">VALIDERINGSKONTROLL DATA 2 UTFÖRD MED NOTERING: Obestyckad patchpanel modularjack</font></strong></p></u>]]></replace>
+		</item>
+		<item>
+			<search>((<!-- kalkylartikelsvalidering -->RJ45 MODULARJACK).*?)\bVALIDERINGSKONTROLL DATA 2 UTFÖRD MED NOTERING\: Obestyckad patchpanel modularjack\b</search>
+			<replace>\1<![CDATA[with <u><p><strong><font size="3" color="Green">OK! Valideringskontroll data 2 utförd utan notering</font></strong></p></u>]]></replace>
+		</item>		
+		
+		<!-- Finns Modularjack eller fullt bestyckad patchpanel? Borde det inte finnas patchkabel? --> 
+		<item>
+			<search>((<!-- kalkylartikelsvalidering -->RJ45 MODULARJACK|FULLT BESTYCKAD PATCHPANEL\s{2,}).*?)\bVALIDERINGSKONTROLL DATA 3 EJ TILLÄMPLIG\b</search>
+			<replace>\1<![CDATA[with <u><p><strong><font size="3" color="Red">VALIDERINGSKONTROLL DATA 3 UTFÖRD MED NOTERING: Modularjack saknar patchkabel</font></strong></p></u>]]></replace>
+		</item>
+		<item>
+			<search>((<!-- kalkylartikelsvalidering -->PATCHKABEL).*?)\bVALIDERINGSKONTROLL DATA 3 UTFÖRD MED NOTERING\: Modularjack saknar patchkabel\b</search>
+			<replace>\1<![CDATA[with <u><p><strong><font size="3" color="Green">OK! Valideringskontroll data 3 utförd utan notering</font></strong></p></u>]]></replace>
+		</item>	
+
+	</items>
+</replacements>
+
+		
