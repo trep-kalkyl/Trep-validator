@@ -4,17 +4,17 @@ Valideringsfiler för Trep kalkyl
 Ett första utkast.
 
 ## Vad är Trep-validator?
-Trep är ett gratis och webbaserat kalkylprogram för elinstallationer. Kalkylerna gör du i webbläsaren på datorn, i surfplattan eller telefonen.
-Trep validator (Validatorn) är en del av kalkylprogrammet Trep.
+Trep är ett gratis och webbaserat kalkylprogram för elinstallationer. Kalkylerna gör du i webbläsaren på datorn, i surfplattan eller telefonen.<br>
+Trep validator (Validatorn) är en del av kalkylprogrammet Trep.<br>
 Validatorn validerar användarens kalkyl för att fastställa om något som borde finnas med i kalkyl saknas.
 
 ## Användningsområde
 
 ## Valideringsmodell
-Modellen som används i koden är en fråga typ:
-<br>Finns X och/eller Y? Borde inte Z isåfall finnas?
-Ett verkligt exempel skulle kunna vara:
-Finns golvstativ eller väggstativ? Borde det inte finnas patchpanel?
+Modellen som används i koden är en fråga typ:<br>
+<br>Finns X och/eller Y? Borde inte Z isåfall finnas?<br><br>
+Ett verkligt exempel skulle kunna vara:<br>
+Finns golvstativ eller väggstativ? Borde det inte finnas patchpanel?<br>
 
 ## Kodexempel
 
