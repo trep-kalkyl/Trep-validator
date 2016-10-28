@@ -5,6 +5,9 @@ Valideringsfiler används för att validera riktigheten i kalkyler.
 
 Ett första utkast.
 
+
+## Accessing the Gantry Administrator 
+
 Modellen som används är en fråga typ:
 <br>Finns X eller/och Y? Borde inte Z finnas?
 
