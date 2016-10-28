@@ -17,6 +17,12 @@ Modellen som används är en fråga typ:
 
 [**Learn More**](http://docs.gantry.org/gantry5/configure/gantry-admin)
 
+`-update`
+
+[GPL version 2 or later](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
+|:-----------------------------------------------------------------------:|
+
 Som verkligt exempel:<br>Finns Golvstativ eller väggstativ? Borde det inte finnas patchpanel?
 
 Valideringsfilen validerar och kontrollerar alltså om det är möjligt att användaren glömt nåt i sin kalkyl.
