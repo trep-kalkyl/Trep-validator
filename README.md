@@ -11,6 +11,12 @@ Ett första utkast.
 Modellen som används är en fråga typ:
 <br>Finns X eller/och Y? Borde inte Z finnas?
 
+### Joomla
+
+**Menu Editor**
+
+[**Learn More**](http://docs.gantry.org/gantry5/configure/gantry-admin)
+
 Som verkligt exempel:<br>Finns Golvstativ eller väggstativ? Borde det inte finnas patchpanel?
 
 Valideringsfilen validerar och kontrollerar alltså om det är möjligt att användaren glömt nåt i sin kalkyl.
